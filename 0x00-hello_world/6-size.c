@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - sizes of various types on the computer
+ * main - Entry point
  * Description: File that prints the size of various of text
  * Return: Always (0) success
  */
