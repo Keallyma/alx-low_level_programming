@@ -1,12 +1,10 @@
 #include<stdio.h>
-int main()
+/**
+*main - Entry point
+*Return: Always 0 (success)
+*/
+int main(void)
 {
-	  //string initialisation
-	  char Mystr1[10] = "#!/bin/bash";
-	  char Mystr2[10] = "programming is like building a multilingual puzzle";
-	  puts(Mystr1);
-	  puts(Mystr2); 
-
-	  return 0;
+puts("\"programming is like building a multilingual puzzle");
+return (0);
 }
-
