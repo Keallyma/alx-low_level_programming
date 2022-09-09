@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - print the sizes of various input
- * Description:
+ * main - print the sizes of various types on the computer it is compiled on
+ * Description:C program that prints the size of various of text
  * Return: 0 (sucess)
  */
 int main(void)
