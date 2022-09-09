@@ -6,10 +6,16 @@
  */
 int main(void)
 {
-print f("Sizes of a char: %d byte(s)\n", sizeof(char));
-print f("Sizes of an int: %d byte(s)\n", sizeof(int));
-print f("Sizes of a long int: %d byte(s)\n", sizeof(long int));
-print f("Sizes of a long long int: %d byte(s)\n", sizeof(long long int));
-print f("Sizes of a float: %d byte(s)\n", sizeof(float));
-return(0);
+	char c;
+	int i;
+	long int ii;
+	long long int iii;
+	float f;
+
+	print f("Sizes of a char: %d byte(s)\n", sizeof(c));
+	print f("Sizes of an int: %d byte(s)\n", sizeof(i));
+	print f("Sizes of a long int: %d byte(s)\n", sizeof(ii));
+	print f("Sizes of a long long int: %d byte(s)\n", sizeof(iii));
+	print f("Sizes of a float: %d byte(s)\n", sizeof(f));
+	return(0);
 }
