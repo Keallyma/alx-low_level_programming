@@ -1,7 +1,2 @@
-#include <stdio.h>
-
-int main(void)
-{
-   printf("#!/bin/bash\n$CFILE");
-   return(0);
-}
+#/bin/bash
+gcc $CFILE -E -o c
