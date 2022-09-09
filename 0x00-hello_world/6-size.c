@@ -5,7 +5,7 @@
  * Description: File that prints the size of various types of text
  * Return: Always (0) success
  */
-int main (void)
+int main(void)
 {
 	printf("Sizes of a char: %d byte(s)\n", sizeof(char));
 	printf("Sizes of an int: %d byte(s)\n", sizeof(int));
