@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*main - print numbers
+*main - print numbers less than 10
 *
 * Return: Always 0 (success)
 */
@@ -12,7 +12,7 @@ int main(void)
 	
 	while (n < 10)
 	{
-		printf("%i, n");
+		printf("n");
 		n++;
 	}
 		putchar('\n');
