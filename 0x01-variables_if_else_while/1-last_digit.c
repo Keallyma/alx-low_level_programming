@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
-*main - Entry point 
-*
+*main - Entry point
+*Description: last digit of numbers greater than 5
 *Return: Always 0 (success)
 */
 
