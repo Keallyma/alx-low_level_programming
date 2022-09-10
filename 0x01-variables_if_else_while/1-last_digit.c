@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-*main - Entry point 
+/**
+* main - Entry point 
 *Description: prints last digits greater than 5
 *Return: Always 0 (success)
 */
@@ -11,6 +11,7 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %i is %i and is ", n, (n % 10));
