@@ -7,20 +7,10 @@
 *Return: Always 0 (success)
 */
 
-init main()
+int main(void)
 {
-	int i = 0,  j;
-	
-	while (i < 4)
-	{
-		j = 0;
-		while(j < 2)
-		{
-			putchar("1 ");
-			j++;
-		}
-		putchar("*\n");
-		i++;
-	}
+	putchar('_putchar');
+	putchar("*\n");
+
 	return (0);
 }
