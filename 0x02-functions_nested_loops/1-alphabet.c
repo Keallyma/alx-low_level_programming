@@ -3,12 +3,10 @@
 /**
 *main - print alphabet in lowercases
 *Description: A program that prints alphabets in lowercase
-*Return: Alway 0 (success)
+*
 */
 
-int main(void)
-{
-	void print_alphabet(void)
+void print_alphabet(void)
 {
 	char i = 'a';
 
@@ -18,5 +16,4 @@ int main(void)
 		i++;
 	}
 	_putchar('\n');
-	return (0);
 }
