@@ -6,7 +6,7 @@
 *
 */
 
-void print_t(void)
+void print_alphabet(void)
 {
 	char t = 'a';
 
