@@ -2,11 +2,11 @@
 
 /**
  * _islower - to check for lowercase character
- * Description: A function that chesck for lowercases
+ * Description: A function that checks for lowercases
  * Return: 1 if 'c' is lowercase otherwise 0
  */
 
-int _islower(int c);
+int _islower(int c)
 {
 	char i = 'a';
 
