@@ -12,16 +12,16 @@ int main(void)
 	long int i = 1, j = 2;
 	long int k;
 
-	printf("%1u, ", i);
+	printf("%lu, ", i);
 	while (count <= 50)
 	{
 		if (count == 50)
 		{
-			printf("%1u\n", j);
+			printf("%lu\n", j);
 		}
 		else
 		{
-			printf("%1u, ", j);
+			printf("%lu, ", j);
 		}
 		k = j;
 		j += i;
