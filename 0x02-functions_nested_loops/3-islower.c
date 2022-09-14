@@ -8,7 +8,7 @@
 
 int _islower(int c)
 {
-	char j = 'a';
+	char i = 'a';
 
 	for (i = 'a'; i <= 'z'; i++);
 	{
