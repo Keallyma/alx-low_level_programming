@@ -5,7 +5,7 @@
  *print_to_98 - check Holberton
  *
  *Return: Nothing
- @n: value of an integer received
+ @n: An input integer
  */
 
 void print_to_98(int n)
