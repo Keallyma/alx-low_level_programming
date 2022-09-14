@@ -14,13 +14,10 @@ int _islower(int c)
 	{
 		_putchar(c);
 		c++;
+		{
+		_putchar('\n');
+		return (1);
+		}
 	}
-	_putchar('\n');
-	return (1);
-	
-	else
-	{
-		for (c = 'a'; c <= 'z'; c++);
 	return (0);
-	}
 }
