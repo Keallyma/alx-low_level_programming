@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *jack-bauer - print time
+ *jack_bauer - print time
  *
  *Description: prints a list of time
  *Return: Always 0 (success)
