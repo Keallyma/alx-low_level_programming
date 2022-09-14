@@ -21,6 +21,7 @@
 			printf(", ");
 		}
 		printf("\n");
+	}
 	else
 	{
 		for (; n >= 98; n--)
