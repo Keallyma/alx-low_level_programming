@@ -5,10 +5,10 @@
  *print_to_98 - check Holberton
  *
  *Return: Nothing
- @n: an integer received
+ @n: value of an integer received
  */
 
- void print_to_98(int n)
+void print_to_98(int n)
 {
 	if  (n <= 98)
 	{
