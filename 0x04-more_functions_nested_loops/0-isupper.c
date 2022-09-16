@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- *
+ *@c: alphabet input
  * Return: Always 0
  */
 
