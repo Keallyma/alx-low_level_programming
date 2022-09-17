@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - prints numbers between zero and fourteen
- * 10 times.
+ * (10 times).
  * Return: no return.
  */
 
