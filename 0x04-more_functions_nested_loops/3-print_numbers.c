@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - print numbers from zero to nine
- * @c: value of number received
  * Return: no return
  */
 
