@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print Buzz each number of three and five
- * Return: 0 (success)
- */
-
+* main - print Buzz each numbers of 3 and 5.
+* Return: 0 (success).
+*/
 int main(void)
 {
 	int n;
@@ -31,5 +30,6 @@ int main(void)
 		}
 	}
 	printf("\n");
+	
 	return (0);
 }
