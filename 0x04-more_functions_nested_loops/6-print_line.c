@@ -2,7 +2,7 @@
 
 /**
  * print_line - print straight line n number of times
- * @n: value for times straight line is printed
+ * @n: number of times straight line is printed
  * Return: no return
  */
 
@@ -14,5 +14,6 @@ void print_line(int n)
 	{
 		_putchar(95);
 	}
+
 	_putchar('\n');
 }
