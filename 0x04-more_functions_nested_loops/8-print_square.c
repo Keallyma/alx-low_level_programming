@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_square - print hashes squares
- * @size: size of square
- * Return: no return
+ * print_square - print hashes squares.
+ * @size: size of the square.
+ * Return: no return.
  */
 
 void print_square(int size)
