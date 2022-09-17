@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - print diagonalline n times
+ * print_diagonal - print diagonal line n times
  * @n: times diagonal line is printed
  * Return: no return
  */
@@ -20,5 +20,5 @@ void print_diagonal(int n)
 		if (i < (n -1))
 			_putchar('\n');
 	}
-	_putchar('\n);
+	_putchar('\n');
 }
