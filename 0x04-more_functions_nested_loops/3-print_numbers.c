@@ -3,7 +3,7 @@
 /**
  * print_numbers - print numbers from zero to nine
  * @c: value of number received
- * Return: void
+ * Return: no return
  */
 
 void print_numbers(void)
