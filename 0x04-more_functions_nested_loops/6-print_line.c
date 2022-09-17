@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_line - print straight line n number of times
- * @n: number of times straight line is printed
- * Return: no return
+ * print_line - print straight line n times.
+ * @n: times straight line is printed.
+ * Return: no return.
  */
 
 void print_line(int n)
