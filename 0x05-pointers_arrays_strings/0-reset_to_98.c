@@ -4,12 +4,13 @@
 /**
  * reset_to_98 - take a pointer to an int as parameter
  * update the value it points to to 98.
+ * @n: value received.
  * Return: no return.
  */
 
 void reset_to_98(int *n)
 {
-	int *n;
+	int n;
 
 	n = 402;
 	printf("n=%d\n", n);
