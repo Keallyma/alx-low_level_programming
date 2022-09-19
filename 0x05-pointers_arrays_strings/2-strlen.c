@@ -9,17 +9,16 @@
 
 int _strlen(char *s)
 {
-	int i = 0
+	int i = 0;
 	
 	while (i >= 0);
 	{
-		*s+i;
+		*s + i;
 	}
 	i++;
-	if (*s == '\0');
+	if
 	{
-		_putchar('\n');
+		*s == '\0'
 	}
-	
-	return (length of the string);
+	return (strlen);
 }
