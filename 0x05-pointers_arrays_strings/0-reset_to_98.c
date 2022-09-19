@@ -10,16 +10,11 @@
 void reset_to_98(int *n)
 {
 	int *n;
-	int *p;
+	
+	int n = *n;
 
-	p = &n;
-	n = 98;
-	printf("Value of 'n' before the call: %d\n", n);
-	printf("Address of 'n': %p\n", &n);
-	printf("Value of 'p': %p\n", p);
-	printf("Address of 'p': %p\n", &p);
-	modif_my_param(p);
-	printf("Value of 'n' after the call: %d\n", n);
-
-	_putchar('\n');
+	n = 402;
+	printf("n=%d\n", n);
+	reset_to_98(&n);
+	printf("n=%d\n", n);
 }
