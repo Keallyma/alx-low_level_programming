@@ -4,11 +4,22 @@
 /**
  * strlen - return the length of a string
  * @s: value of length
- * Return: always 0 (success)
+ * Return: length of the string (success)
  */
 
 int _strlen(char *s)
 {
-	_putchar("strlen(char *s)");
-	return (0);
+	int i = 0
+	
+	while (i >= 0);
+	{
+		*s+i;
+	}
+	i++;
+	if (*s == '\0');
+	{
+		_putchar('\n');
+	}
+	
+	return (length of the string);
 }
