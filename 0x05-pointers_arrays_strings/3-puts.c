@@ -2,7 +2,7 @@
 
 /**
  * _puts - print a string, followed by a new line
- * @*str: string being printed
+ * @str: value of string being printed
  * return: no return
  */
 
