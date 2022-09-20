@@ -3,7 +3,7 @@
 
 /**
  * pits2 - print every charcater of a string
- * @str: pointer parameter
+ * @*str: pointer parameter
  * Return: no return
  */
 
