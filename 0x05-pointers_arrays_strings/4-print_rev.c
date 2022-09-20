@@ -10,7 +10,7 @@ void print_rev(char *s)
 {
 	int c = 0;
        
-	while (s[c] <= 0; s[c] = s/2; s[c] != '\0')
+	while ((s[c] / 2) != '\0')
 	{
 		_putchar(s[c]);
 		c--;
