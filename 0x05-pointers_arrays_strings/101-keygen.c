@@ -17,8 +17,8 @@ int main(void)
 	{
 		pass = (rand() % 128);
 		sum += pass;
-		_putchar("%c", pass);
+	printf("%c", pass);
 	}
-	_putchar("%c", 2772 - sum);
+	printf("%c", 2772 - sum);
 	return (0);
 }
