@@ -21,7 +21,7 @@ void rev_string(char *s)
 	m = c / 2;
 	while (m >= 0)
 	{
-		first = s[c - m ];
+		first = s[c - m];
 		last = s[m];
 		s[m] = first;
 		s[c - m] = last;
