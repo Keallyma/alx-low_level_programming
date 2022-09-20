@@ -2,8 +2,7 @@
 #include <string.h>
 
 /**
- * pits2 - print every charcater of a string
- * @*str: string input received
+ * puts2 - print every charcater of a string
  * @str: pointer parameter
  * Return: no return
  */
