@@ -4,6 +4,7 @@
 /**
  * pits2 - print every charcater of a string
  * @*str: string input received
+ * @str: pointer parameter
  * Return: no return
  */
 
