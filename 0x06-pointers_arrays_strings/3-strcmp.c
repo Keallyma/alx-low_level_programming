@@ -4,7 +4,10 @@
  * _strcmp - compares two strings
  * @s1: pointer to first string
  * @s2: pointer to second string
- * Return: 0 if string are equal otherwise less than 0 if string is less than the otherwise greater than 0
+ *
+ * Return: 0 if string are equal
+ * value greater than 0 if string is greater than the other
+ * otherwise value less than 0 if string is less than the other
  */
 
 int _strcmp(char *s1, char *s2)
