@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - encode a string into 1337
+ * leet - encodes a string into 1337
  * Letters a and A are replaced by 4
  * Letters e and E are replaced by 3
  * Letters o and O are replaced by 0
@@ -28,7 +28,7 @@ char *leet(char *s)
 			{
 				s[stringCount] = leetNums[leetCount];
 			}
-			leeCount++;
+			leetCount++;
 		}
 		stringCount++;
 	}
