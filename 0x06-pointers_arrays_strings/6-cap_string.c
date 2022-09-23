@@ -2,10 +2,11 @@
 
 /**
  * cap_string - capitalize every first letetr of a word in a string
- * separators of words are: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
+ * separators of words are: space, tabulation
+ * new line, ,, ;, ., !, ?, ", (, ), {, and }
  * @s: pointer to string
  *
- * Return: pointer to s,
+ * Return: pointer to s
  */
 
 char *cap_string(char *s)
@@ -32,3 +33,4 @@ char *cap_string(char *s)
 		count++;
 	}
 	return (s);
+}
