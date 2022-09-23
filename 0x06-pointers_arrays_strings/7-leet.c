@@ -11,7 +11,7 @@
  * Return: pointer to s 
  */
 
-char *lest(char *s)
+char *leet(char *)
 {
 	int stringCount, leetCount;
 	char leetLetters[] = "aAeEoOtTlL";
