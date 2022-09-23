@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- **_strcat - concatenate two strings
+ *_strcat - concatenate two strings
  *@dest: first string received
  *@src: second string received
  * Return: pointer to destination string
