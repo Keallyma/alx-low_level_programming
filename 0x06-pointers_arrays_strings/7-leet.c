@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * leet - encode a string into 1337
  * Letters a and A are replaced by 4
