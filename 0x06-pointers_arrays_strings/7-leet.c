@@ -17,7 +17,7 @@ char *lest(char *s)
 	char leetLetters[] = "aAeEoOtTlL";
 	char leetNums[] = "4433007711";
 
-	StringCount = 0
+	stringCount = 0;
 	while (s[stringCount] != '\0')
 	{
 		leetCount = 0;
