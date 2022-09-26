@@ -2,10 +2,10 @@
 #define NULL 0
 
 /**
- * _strch - locatefirst occurrence of char in string and returns pointer there
+ * _strchr - locate first occurrence of char in string and returns pointer there
  * @s: string to search
  * @c: target character
- * Return: pointer to thgat cahracter in string
+ * Return: pointer to that character in string
  */
 
 char *_strchr(char *s, char c)
@@ -16,7 +16,7 @@ char *_strchr(char *s, char c)
 		i++;
 
 	if (s[i] == c)
-		rteurn (&s[i]);
+		return (&s[i]);
 
 	else
 		return (NULL);
