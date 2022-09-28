@@ -2,8 +2,8 @@
 
 /**
  * _print_rev_recursion - prints a string in reverse
- * @s: pointer block of memory to fill 
- * Return: nothing
+ * @s: pointer block of memory to be filled
+ * Return: void
  */
 
 void _print_rev_recursion(char *s)
