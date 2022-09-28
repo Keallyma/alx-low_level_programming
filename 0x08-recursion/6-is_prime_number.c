@@ -2,11 +2,11 @@
 /**
  * evaluate_num - recursion loop
  * @num: num
- * @iterator; number to iterate
+ * @iterator: number to iterate
  * Return: return 1 or 0
  */
 
-int evaluate-num(int num, int iterator)
+int evaluate_num(int num, int iterator)
 {
 	if (iterator == num - 1)
 	{
@@ -45,5 +45,6 @@ int is_prime_number(int num)
 	{
 		return (1);
 	}
+
 	return (evaluate_num(num, iterator));
 }
