@@ -2,9 +2,9 @@
 
 /**
  * helper - find the square root of two numbers
- * @a: the first number
- * @b: the second number to test for the square root of @a
- * Return: square root 
+ * @a: first number to be tested
+ * @b: second number for square root to be tested
+ * Return: square root
  */
 
 int helper(int a, int b)
