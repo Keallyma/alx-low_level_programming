@@ -8,18 +8,11 @@
 
 void _puts_recursion(char *s)
 {
-	printf("_");
-	printf("p");
-	printf("u");
-	printf("t");
-	printf("c");
-	printf("h");
-	printf("a");
-	printf("r");
-	printf("\n");
-}
+	if (*s == '\0')
+	{
+		_putchar('\n');
+	}
 
-int main(void)
-{
-	_puts_recursion("_putchar\n");
+	_putchar (*s);
+	_puts_recursion(s + 1);
 }
