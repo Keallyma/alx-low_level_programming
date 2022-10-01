@@ -3,13 +3,13 @@
 #include <ctype.h>
 
 /**
- * main - main func
+ * main - main function
  * @argc: parameter count
  * @argv: parameter pointer
  * Return: int
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, j, sum = 0;
 
