@@ -1,4 +1,2 @@
-main.h
-main.h
-*.o
-*.c
+main.o
+main.c
