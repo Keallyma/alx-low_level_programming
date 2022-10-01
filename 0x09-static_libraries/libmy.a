@@ -1,6 +1,5 @@
 !<arch>
-main.h/         0           0     0     644     670       `
-#include <string.h>
+main.h/         0           0     0     644     650       `
 #ifndef MAIN_H
 #define MAIN_H
 
