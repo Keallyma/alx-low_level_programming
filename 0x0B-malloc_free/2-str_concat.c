@@ -3,7 +3,7 @@
 /**
  * _strlen - count array
  * @s: array of elements
- * Return: 1
+ * Return: i
  */
 
 int _strlen(char *s)
@@ -20,10 +20,10 @@ int _strlen(char *s)
 }
 
 /**
- * str_concat - back a pointer to array
- * @s1: first array
- * @s2: second array
- * Return: Always an array dynamic
+ *str_concat - back a pointer to array
+ *@s1: first array
+ *@s2: second array
+ *Return: Always an array dynamic
  */
 
 char *str_concat(char *s1, char *s2)
@@ -33,9 +33,6 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 		s1 = "";
-
-	if (s2 == NULL)
-		s2 = "";
 
 	size = (_strlen(s1) + _strlen(s2) + 1);
 
@@ -47,9 +44,9 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	for (i = 0; *(s1 + i) != '\0'; i++)
-		*(dst * i) = *(s1 + i);
+		*(dst + 1) = *(s1 + i);
 
-	for (j = 0; *(s2 + j) != '\0'; j++)
+	for (j = 0; *(s2 + j) != '\0'; j++);
 	{
 		*(dst + i) = *(s2 + j);
 		i++;
