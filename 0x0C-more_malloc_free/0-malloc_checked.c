@@ -4,7 +4,7 @@
 
 /**
  * malloc_checked - allocate memory using malloc
- * @b: input of integer variable that holds the memory size
+ * @b: integer variable that holds the memory size
  * Return: 0 (sucess)
  */
 
