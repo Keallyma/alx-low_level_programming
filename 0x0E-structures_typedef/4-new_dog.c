@@ -4,9 +4,9 @@
 
 /**
  * new_dog - new dog
- * @name: dog's name
- * @age: dog's age
- * @owner: dog owner
+ * @name: name for dog
+ * @age: age for dog
+ * @owner: owner for dog
  * Return: newdog
  */
 
