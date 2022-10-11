@@ -19,7 +19,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		i++;
 	while (owner[j] != '\0')
 		j++;
-	doge = malloc(sizeof(doe_t));
+	doge = malloc(sizeof(dog_t));
 	if (doge == NULL)
 	{
 		free(doge);
