@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * print_dog - print struct dog
+ * print_dog - print a struct dog
  * @d: pointer to struct type dog
  * Return: Nothing
  */
@@ -23,4 +23,4 @@ void print_dog(struct dog *d)
 		printf("Owner: (nil)\n");
 
 	else
-	printf("owner: %s\n", d->owner);
+	printf("Owner: %s\n", d->owner);
