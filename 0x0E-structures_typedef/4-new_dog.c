@@ -4,9 +4,9 @@
 
 /**
  * new_dog - new dog
- * @name: name for dog
- * @age: age for dog
- * @owner: owner for dog
+ * @name: name's dog
+ * @age: age's dog
+ * @owner: owner's dog
  * Return: newdog
  */
 
@@ -34,7 +34,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	for (k = 0; k <= i; k++)
 		doge->name[k] = name[k];
-	doge->age = age
+	doge->age = age;
 	doge->owner = malloc(j * sizeof(doge->owner));
 	if (doge->owner == NULL)
 	{
