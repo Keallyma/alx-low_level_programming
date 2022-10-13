@@ -5,6 +5,7 @@
  * main - program that performs simple operations
  * @argc: number of arguments
  * @argv: array of arguments
+ *
  * Return: always 0 (success)
  */
 
@@ -15,6 +16,17 @@ int main(int argc, char *argv[])
 	int (*func)(int, int);
 
 	if (argc != 4)
+	{
+		printf("Error\n");
+		exit(98);
+	}
+
+	arg1 = atoi(argv[1]);
+	arg2 = atoi(argv[3]);
+
+	func = get_op_func(argv[2]);
+
+	if (!func)
 	{
 		printf("Error\n");
 		exit(99);
