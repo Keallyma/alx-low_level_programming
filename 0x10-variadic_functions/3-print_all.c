@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_all - print all
+ * print_all - prints all
  * @format: param
  */
 
@@ -12,7 +12,7 @@ void print_all(const cahr * const format, ...)
 	char *str;
 	const char t_arg[] = "cifs";
 
-	va_start(calist, format);
+	va_start(valist, format);
 	while (format && format[i])
 	{
 		j = 0;
@@ -20,7 +20,7 @@ void print_all(const cahr * const format, ...)
 		{
 			if (format[i] == t_arg[j] && k)
 			{
-				printf(",");
+				printf(", ");
 				break;
 			} j++;
 		}
