@@ -2,7 +2,7 @@
 
 /**
  * print_lists - print list
- * @h: param list
+ * @h: parameter list
  * Return: struct
  */
 
@@ -20,5 +20,6 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		nodelen++;
 	}
+
 	return (nodelen);
 }
