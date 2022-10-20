@@ -2,10 +2,10 @@
 
 /**
  * add_node - add a new node at the beginning
- * of a list_t list
- * @head: head of the linked list
- * @str: string to store in the list
- * Return: address of the head
+ * of a list_t list.
+ * @head: head of the linked list.
+ * @str: string to store in the list.
+ * Return: address of the head.
  */
 
 list_t *add_node(list_t **head, const char *str)
@@ -21,7 +21,8 @@ list_t *add_node(list_t **head, const char *str)
 		a++;
 
 	new->str = strdup(str);
-	new->len = *head;
+	new->len = a;
+	new->next = *head;
 	*head = new;
 
 	return (*head);
