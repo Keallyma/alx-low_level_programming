@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_lists - print list
+ * print_list - print list
  * @h: parameter list
  * Return: struct
  */
