@@ -2,9 +2,9 @@
 
 /**insert_nodeint_at_index - insert a new node at a given position
  * @head: the head node
- * @idx: index where new node is to be added
- * @n: integer data of the new node
- * Return: address of the newly inserted node or NULL if failed
+ * @idx: the index where new node is to be added
+ * @n: the integer data of the new node
+ * Return: the address of the newly inserted node or NULL if failed
  */
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
@@ -13,7 +13,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	size_t i = 0;
 
 	node = malloc(sizeof(listint_t));
-	if (node)
+	if (!node)
 		return (NULL);
 
 	node->n = n;
@@ -24,6 +24,9 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		*head = node;
 		return (node);
 	}
+
+	else if (!*head && !idx)
+		return (NULL);
 
 	else if (!idx)
 	{
