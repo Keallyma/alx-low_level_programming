@@ -2,10 +2,10 @@
 
 /**
  * free_listint - free a linked list
- * @head: pointer to the first node of the linked list to be fred
+ * @head: pointer to the first node of the linked list to fred
  */
 
-void free-listint(listint_t *head)
+void free_listint(listint_t *head)
 {
 	listint_t *temp;
 
