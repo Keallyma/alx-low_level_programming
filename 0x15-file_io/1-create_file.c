@@ -4,7 +4,7 @@
  * create_file - create a file and add permission to it
  * @filename: The name of the file to be created 
  * @text_content: content to be placed in the created file
- * Return: 1 if successful and -1 on error
+ * Return: 1 if successful and -1 on err
  */
 
 int create_file(const char *filename, char *text_content)
